@@ -21,15 +21,9 @@ This plugin prevents **scanning abuse** and **rapid frequency input** on
 
 ## ⚙️ Installation
 
-1.  Copy `anti-abuse.js` into the **`plugins`** folder of
-    `fm-dx-webserver`.\
-2.  Add the following line in the main HTML file, before `</body>`:
-
-``` html
-<script src="plugins/anti-abuse.js"></script>
-```
-
-3.  Reload the webserver page.
+Save the plugin file as frequency-blocker.js
+Place it in your FM-DX Webserver's plugin directory
+Make sure it's loaded by the web interface (or include via a <script> tag if needed)
 
 ------------------------------------------------------------------------
 
